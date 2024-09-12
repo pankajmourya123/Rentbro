@@ -32,7 +32,7 @@ const Home = () => {
           <h2 className="text-center mb-4">Why Choose RentBro?</h2>
           <Row  >
             <Col md={4} className="mb-3" >
-              <Card className="feature-card">
+              <Card className="feature-card" style={{backgroundColor:'white' ,width:"400px"}}>
                 <Card.Img variant="top" src={build} alt="Easy Search & Filters" />
                 <Card.Body>
                   <Card.Title>Easy Search & Filters</Card.Title>
