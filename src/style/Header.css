@@ -1,0 +1,31 @@
+
+.custom-logo {
+    margin-left: -20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  
+  .custom-links .nav-link {
+    margin-right: 20px;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+    font-weight: 500;
+    color: #000;
+  }
+  
+  
+  .custom-links .nav-link:hover {
+    transform: scale(1.1);
+  }
+  
+ 
+  .custom-button {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  
+  .custom-button:hover {
+    transform: scale(1.05);
+  }
+  

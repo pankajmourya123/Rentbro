@@ -1,0 +1,99 @@
+/* Home.css */
+
+.hero-section {
+  background: url('../assets/room.avif') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.features-section, .pricing-section {
+  padding: 60px 0;
+}
+
+.features-section h2, .pricing-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.feature-card, .pricing-card {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover, .pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card img, .pricing-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.feature-card .card-body, .pricing-card .card-body  {
+  padding: 20px;
+}
+
+.pricing-card {
+  background: #f8f9fa;
+}
+
+ .card-body {
+  text-align: center;
+}
+
+.card-footer {
+  background: #f8f9fa;
+  font-style: italic;
+  color: #6c757d;
+}
+
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.features-section .row, .pricing-section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-card, .pricing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 300px; /* Adjust as needed */
+}
+
+.feature-card img, .pricing-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.feature-card .card-body, .pricing-card .card-body {
+  padding: 20px;
+  margin: 0;
+  flex: 1;
+}

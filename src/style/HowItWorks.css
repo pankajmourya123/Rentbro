@@ -1,0 +1,9 @@
+
+.step-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .step-card:hover {
+    transform: scale(1.05); /* Slight scaling on hover */
+  }
+  
