@@ -7,6 +7,7 @@ import buildings from '../assets/featurehouse.webp';
 import '../style/Home.css'; // Import the CSS file
 import HowItWorks from './HowItWork';
 import Testimonials from './Testimonials';
+import build from "../assets/pexels-pixabay-302769.jpg"
 
 const Home = () => {
   return (
@@ -32,7 +33,7 @@ const Home = () => {
           <Row  >
             <Col md={4} className="mb-3" >
               <Card className="feature-card">
-                <Card.Img variant="top" src={buildings} alt="Easy Search & Filters" />
+                <Card.Img variant="top" src={build} alt="Easy Search & Filters" />
                 <Card.Body>
                   <Card.Title>Easy Search & Filters</Card.Title>
                   <Card.Text>Find rooms based on location, price, and amenities.</Card.Text>
